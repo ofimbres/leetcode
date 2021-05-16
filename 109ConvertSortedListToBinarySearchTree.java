@@ -31,7 +31,7 @@
 class Solution {
 
     /**
-     * Solution 1. Recursion + Conversion to Array
+     * Approach 1. Recursion + Conversion to Array
      * Time: O(N), Space: O(N)
      */
     public TreeNode sortedListToBST(ListNode head) {
@@ -63,7 +63,7 @@ class Solution {
     }
 
     /**
-     * Solution 2. Recursion
+     * Approach 2. Recursion
      * Time: O(N log N), Space: O(log N)
      */
     /*public TreeNode sortedListToBST(ListNode head) {
@@ -105,7 +105,7 @@ class Solution {
     }*/
 
     /**
-     * Solution 3. Inorder Simulation
+     * Approach 3. Inorder Simulation
      * Time: O(N), Space: O(log N)
      */
     /*private ListNode head;

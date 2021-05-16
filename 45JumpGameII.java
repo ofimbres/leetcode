@@ -6,7 +6,7 @@
 class Solution {
 
     /**
-     * Solution 1. Greedy
+     * Approach 1. Greedy
      * Time: O(N), Space: O(1)
      *
      * Implicit BFS solution:
@@ -31,7 +31,7 @@ class Solution {
     }
 
     /**
-     * Solution 2. Recursion + Memoization
+     * Approach 2. Recursion + Memoization
      * Time: O(N^2), Space: O(N)
      */
     /*public int jump(int[] nums) {
@@ -58,7 +58,7 @@ class Solution {
     }*/
 
     /**
-     * Solution 3. Tabulation
+     * Approach 3. Tabulation
      * Time: O(N^2), Space: O(N)
      */
     /*public int jump(int[] nums) {

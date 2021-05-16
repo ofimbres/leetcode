@@ -4,6 +4,11 @@
  */
 
 class Solution {
+
+    /**
+     * Approach 1. Binary Search
+     * Time: O(log N), Space: O(1)
+     */
     public int search(int[] nums, int target) {
         int len = nums.length;
         if (len == 1) {
